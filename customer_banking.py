@@ -1,13 +1,6 @@
 # Import the create_cd_account and create_savings_account functions
-# ADD YOUR CODE HERE
-try:
-    from savings_account import create_savings_account  
-    from cd_account import create_cd_account    
-except ImportError:
-    import sys
-    sys.path.append('.')
-    from savings_account import create_savings_account  
-    from cd_account import create_cd_account    
+from savings_account import create_savings_account
+from cd_account import create_cd_account
 # Define the main function
 def main():
     """This function prompts the user to enter the savings and cd account balance, interest rate,
